@@ -1,0 +1,14 @@
+$colors: (
+    grey:#efefef,
+    beige:#e0cbae,
+    primary: #779fa1,
+    secondary: #564154,
+    accent: #88498f,
+);
+
+@function getColor ($color){
+    @return map-get($colors, $color )
+}
+
+$font-primary: "open sans", sans-serif;
+$font-headings: "montserrat", sans-serif;

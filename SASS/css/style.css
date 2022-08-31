@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: radial-gradient(circle at center, #efefef, #e0cbae);
+  margin: 0;
+  font-family: "open sans", sans-serif;
+}
+
+nav {
+  background: #779fa1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */

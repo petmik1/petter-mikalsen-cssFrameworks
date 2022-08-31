@@ -1,0 +1,8 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: radial-gradient(circle at center, getColor(gray), getColor(beige));
+    margin: 0;
+    font-family: $font-primary;
+}
